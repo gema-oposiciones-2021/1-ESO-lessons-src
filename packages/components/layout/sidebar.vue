@@ -16,6 +16,7 @@
           'open': val.open, 
           'active': val.src == src
         }"
+        v-bind:key="key"
       >
         <span v-if="val.haveChild">
           <a @click="menuOpne(key)">

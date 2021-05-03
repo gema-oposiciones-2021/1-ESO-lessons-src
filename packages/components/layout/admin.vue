@@ -1,7 +1,7 @@
 <template>
   <div>
     <mt-header 
-      logoStr="Material Admin"
+      logoStr="Oposiciones 2021"
       :open="sidebarShow"
     ></mt-header>
     <mt-sidebar 

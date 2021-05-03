@@ -12,6 +12,13 @@ const store = new Vuex.Store({
         headBg,
         menuData: {
             0: {
+                name: 'Unidades didácticas',
+                src: '/cards',
+                icon: 'widgets',
+                open: false,
+                haveChild: false
+            },/*
+            0: {
                 name: 'Home 首页',
                 src: '/',
                 icon: 'home',
@@ -96,7 +103,7 @@ const store = new Vuex.Store({
                     }
                 },
                 haveChild: true
-            },
+            },*/
         }
     }
 })

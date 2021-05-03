@@ -9,7 +9,8 @@
   left: 0;
   top: 0;
   padding: 17px 20px;
-  background-color: #2196f3;
+  background: -prefix-linear-gradient(left, blue, pink);
+  background: linear-gradient(to right, blue, pink);
 }
 #header>div {
   float: left;

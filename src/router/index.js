@@ -22,7 +22,7 @@ const routes = [
   },
   {
     path: '/cards',
-    name: 'Cards 卡片样式',
+    name: 'UNIDADES DIDÁCTICAS',
     component: Cards
   },
   {
@@ -67,7 +67,7 @@ const routes = [
   },
   {
     path: '*',
-    name: 'Home 首页',
+    name: 'Presentation',
     component: Home
   },
 ]
